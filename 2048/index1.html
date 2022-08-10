@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPGames-m2048</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3198016437808117"
+     crossorigin="anonymous"></script>
+    <script>  
+        function internetCheck() {  
+             var value = "Is the browser online? " + navigator.onLine;  
+             //document.getElementById("internetCheck").innerHTML = value;
+             if(value == 'Is the browser online? true'){
+                document.getElementById("internetCheck01").href="game.html"; 
+                return false;
+             }else{
+                document.getElementById("internetCheck01").href="game.html"; 
+                Android.showToast("Connect To Internet Please!");
+            }  
+        }  
+        </script> 
+</head>
+<body>
+    <div class="container0a">
+    <div class="container01">
+        <div class="container02">
+        <button onclick="internetCheck()"><span><a id="internetCheck01" href="index.html" style="padding: 2.5rem 1.5rem;">Play </a></span></button>
+        </div>
+        
+    </div>
+    <div class="container01">
+        <div class="container02">
+            <button><span><p style="color: aliceblue;">Welcome to <br><br>MAPGames <br><br>Enjoy your Game :) <br> <br> Train your brain!
+            </p></span></button>
+            </div>
+    </div>
+    <!--
+    <div class="container01">
+        <div class="container02">
+            <button><span><a href="file:///android_asset/options.html">Options</a></span></button>
+            </div>
+    </div>
+    <div class="container01">        
+        <div class="container02">
+            <button><span><a href="file:///android_asset/help.html">Help &nbsp;!</a></span></button>
+            </div>
+    </div>
+    </div>
+    -->
+</body>
+</html>

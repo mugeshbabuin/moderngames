@@ -1,0 +1,3 @@
+view-source:https://livegame.show/games/2048_v4/
+
+https://livegame.show/assets/js/seedrandom.min.js

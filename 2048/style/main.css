@@ -8,11 +8,11 @@ body {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 /*   overflow-y: auto; */
-  /* overflow-y: hidden; */
-  overflow-y: auto;
+  overflow-y: hidden;
+  /* overflow-y: auto; */
   overscroll-behavior: contain;
   height: 100%;
-  background-image: linear-gradient(to bottom,lightgray,violet,lightgray);
+  /* background-image: linear-gradient(to bottom,lightgray,violet,lightgray); */
 }
 
 /** Confetti **/
